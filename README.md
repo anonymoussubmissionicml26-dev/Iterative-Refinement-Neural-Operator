@@ -1,7 +1,7 @@
 # IRNO — Iterative Refinement Neural Operator
 
 A learned **iterative refinement mechanism** for neural operators that improves accuracy, spectral fidelity, and stability by applying a contraction-based residual correction map at inference time.
-
+![system](figures/flow_chart.png)
 ## Overview
 
 IRNO refines predictions from a **base operator** using a learned refinement operator Φ(x, h) that operates on the current solution estimate and input:
